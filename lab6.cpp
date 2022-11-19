@@ -1,7 +1,7 @@
-﻿//Вариант - 5.
-//Дана целочисленная матрица{ Aij }i = 1...n; j = 1..n, n <= 100. 
-//Если все диагональные элементы матрицы положительны и содержат цифры 3 или 5,
-//заменить минимальные элементы столбцов на суммы квадратов элементов соответствующих столбцов.
+﻿//Variant 5
+//Whole numbers matrix { Aij }i = 1...n; j = 1..n, n <= 100. 
+//if all diagonal elements of matrix are > 0 and contain digits 3 or 5,
+//swap the minimal elements of each column for sums of squares of all elements in the column.
 
 #include <iostream>
 #include "Header.hpp"
