@@ -6,11 +6,15 @@
 #include <iostream>
 #include "Header.hpp"
 
+using namespace myFunctions;
+
 int mas[100][100];
 
 int main()
 {
-	int n = 3;
+	int n;
+	std::cout << "Enter matrix size < 101: ";
+	std::cin >> n;
 	matrixCreate(mas, n);
 	printMatrix(mas, n);
 }
